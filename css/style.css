@@ -1,6 +1,7 @@
-/* Container holding the image and the text*/
-.container {
-position: relative;
-text-align: center;
-color: black;
+/*header*/
+.header {
+    background-image: url('../assets/backgrounds/h_img.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
