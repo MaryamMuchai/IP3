@@ -3,7 +3,11 @@ div{
     height: 70vh;
 }
 .welcome {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url('../assets/backgrounds/h_img.jpg');
+
+    color: white;
 }
 .about {
     text-align: center;
@@ -16,6 +20,11 @@ div{
     text-align:center;
     font-family: 'Times New Roman', Times, serif;
     font-size:small;
-    color: blanchedalmond;
+    color: white;
+    font-weight: bolder;
     height: 50vh;
+}
+.whatwedo {
+    text-align: center;
+    height: 20vh;
 }
