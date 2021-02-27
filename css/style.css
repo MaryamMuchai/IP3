@@ -4,25 +4,30 @@ div{
 }
 .welcome {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:sans-serif;
     background-image: url('../assets/backgrounds/h_img.jpg');
 
     color: white;
 }
 .about {
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
-    font-size: medium;
+    font-family:sans-serif;
+    font-size: small;
     height: 30vh;
 }
 .services {
     background-image: url('../assets/backgrounds/s_image.jpg');
     text-align:center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:sans-serif;
     font-size:small;
     color: white;
     font-weight: bolder;
     height: 50vh;
+    position: relative;
+}
+.centered {
+   position: absolute;
+   top: 20%;
 }
 .whatwedo {
     text-align: center;
@@ -41,11 +46,12 @@ div{
     height: 20vh;
 }
 .icons {
-    height: 50vh;
+    height: 20vh;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
+    bottom: 30px;
 }
 .contact {
     background-image: url('../assets/backgrounds/c_image.jpg');
-    height: 60vh;
+    height: 50vh;
 }
