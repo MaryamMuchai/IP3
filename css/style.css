@@ -30,4 +30,10 @@ div{
 }
 .portfolio {
     text-align: center;
+    height: 30vh;
+}
+.icons {
+    height: 30vh;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
