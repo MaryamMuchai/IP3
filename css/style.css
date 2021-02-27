@@ -26,5 +26,8 @@ div{
 }
 .whatwedo {
     text-align: center;
-    height: 20vh;
+    height: 30vh;
+}
+.portfolio {
+    text-align: center;
 }
