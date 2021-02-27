@@ -30,8 +30,14 @@ div{
 }
 .portfolio {
     text-align: center;
-    height: 30vh;
-    margin-bottom: 40px;
+    height: 40vh;
+    font-weight: bolder;
+}
+.section1 {
+    height: 20vh;
+}
+.section2 {
+    height: 20vh;
 }
 .icons {
     height: 50vh;
