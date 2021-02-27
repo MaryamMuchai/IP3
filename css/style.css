@@ -9,4 +9,13 @@ div{
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     font-size: medium;
+    height: 30vh;
+}
+.services {
+    background-image: url('../assets/backgrounds/s_image.jpg');
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:small;
+    color: blanchedalmond;
+    height: 50vh;
 }
