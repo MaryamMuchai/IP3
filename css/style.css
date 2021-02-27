@@ -31,9 +31,14 @@ div{
 .portfolio {
     text-align: center;
     height: 30vh;
+    margin-bottom: 40px;
 }
 .icons {
-    height: 30vh;
+    height: 50vh;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+}
+.contact {
+    background-image: url('../assets/backgrounds/c_image.jpg');
+    height: 60vh;
 }
