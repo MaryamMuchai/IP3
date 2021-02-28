@@ -18,3 +18,13 @@ $(document).ready(function() {
         $("#development-icon").slideDown('1500');
       });
     });
+    $(document).ready(function(){
+        $("#product-icon").click(function(){
+          $("#product-image").slideDown('1500').hide('1000');
+          $("#product").show('1500');
+        });
+        $("#product").click(function(){
+          $("#product").slideUp('1500');
+          $("#product-icon").slideDown('1500');
+        });
+      });
