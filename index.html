@@ -56,6 +56,7 @@
             <p>DESIGN</p>
           </div>
         </div>
+  
         
         <!---Development icon-->
         <div class="col-md-4">
@@ -63,11 +64,11 @@
             <h5 class="title">DEVELOPMENT</h5>
             <p>Web development" usually refers to the main non-design aspects of building Web sites: writing markup and coding. Web development may use content management systems (CMS) to make content changes easier and available with basic technical skills.</p>
           </div>
-          <div id="development-icon">
-            <img src="./assets/services_icons/dev_icon.png" alt="development">
-         <p>DEVELOPMENT</p>
-         </div>
-        </div>
+            <div id="development-icon">
+              <img src="./assets/services_icons/dev_icon.png" alt="development">
+              <p>DEVELOPMENT</p>
+            </div>
+          </div>
 
         <!--PRODUCT MANAGEMENT-->
         <div class="col-md-4">
@@ -75,13 +76,13 @@
             <h5 class="title">PRODUCT MANAGEMENT</h5>
             <p>For the web, product management bridges the gap between leadership and customers on one side, and the user experience, content strategy, design, and development team on the other..</p>
           </div>
-          <div id="product-icon">
-            <img src="./assets/services_icons/product_icon.png" alt="products">
-            <P>PRODUCT MANAGEMENT</P>
+            <div id="product-icon">
+              <img src="./assets/services_icons/product_icon.png" alt="products">
+              <P>PRODUCT MANAGEMENT</P>
+            </div>
           </div>
         </div>
         </div>
-    </div>
 
     <!---Section 5-->
     <div class="portfolio">
@@ -104,32 +105,36 @@
     <!---Section 6-->
     <div class="contact" style="text-align: center;">
       <h2>Contact Us</h2>
-            <div class="row">
-              <div class="column">
-              </div>
-              <div class="column">
-                <form action=" ">
-               <label for="name">Last Name</label>
-                  <input type="text" id="name" name="name" placeholder="Your full name..">
-
-                <label for="country">Country</label>
-                  <select id="country" name="country">
-                    <option value="Kenya">Kenya</option>
-                    <option value="Tanzania">Tanzania</option>
-                    <option value="Uganda">Uganda</option>
-                  </select>
-                  
-                  <label for="subject">Subject</label>
-                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                  <input type="submit" value="Submit">
-                </form>
-              </div>
-            </div>
-          </div> 
+      <div class="contact-overlay">
+        <h1 class="text-center text-white b-text">CONTACT US</h1><br>
+        <div class="col-md-12 input">
+            <form id="form">
+                <div class="row">
+                    <div class="col-md-2 form"></div>
+                    <input class="col-md-4 form-control name" type="text" id="name" name="name" placeholder="Name..."
+                           required><br><br>
+                    <input class="col-md-4 form-control email" type="email" id="email" name="email" placeholder="Email..."
+                           required>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                <div class="row input">
+                    <div class="col-md-2"></div>
+                    <textarea class="form-control col-md-8 text" rows="12" name="message" id="message"
+                              placeholder="Your message here..."></textarea>
+                    <div class="col-md-2"></div>
+                </div>
+                <button class="btn btn-success mx-auto d-block submit" id="okButton" type="submit">Submit</button>
+                <br>
+            </form>
         </div>
+    </div>
+</div>
+
 
         <!--Section 7-->
         <div class="icons">
+          <footer>
           <p><img src="./assets/social_icons/behance.png"style= "width:30px;height:30px;">
             <img src="./assets/social_icons/dribble.png"style= "width:30px;height:30px;"> 
             <img src="./assets/social_icons/facebook.png"style= "width:30px;height:30px;"> 
@@ -143,7 +148,7 @@
             <p>DELANI STUDIO</p>
             <p>2019</p>
             </div>  
-
+          </footer>
     <!-- Custom JS-->
     <script type="text/js" src="js/script.js"></script>
 </body>
