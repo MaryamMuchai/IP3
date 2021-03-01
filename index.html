@@ -18,10 +18,8 @@
         <h1>WELCOME</h1>
         <h2>TO DELANI'S STUDIO</h2>
         <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-        <div class="mouse-click">
-        <a href="#about"><img src="./assets/mouse_click.png" alt=" mouse_click" id="mouse-click"></a> 
+        <img id="mouse" src="assets/mouse_click.png" alt="mouse">
       </div>
-    </div>
 
     <!---Section 2-->
     <div class="about">
@@ -43,52 +41,43 @@
     </div>
 
     <!---Section 4-->
+    <!--DESIGN ICON-->
     <div class="whatwedo">
       <h4>WHAT WE DO</h4>
-      <!--DESIGN ICON-->
       <div class="row">
         <div class="col-md-4">
-          <div id="design-showing">
-            <img src="./assets/services_icons/design_icon.png" alt="design">
-            <h5 class="title">DESIGN</h5>
-            <div class="paragraph">
+          <div class="show1">
+            <span class="clickable1"><img src="./assets/services_icons/design_icon.png" alt="design"></span>
+           </div>
+           <div class="hide1">
+             <span class="clickable1"><h6>DESIGN</h6>
               <p> Artistic practice goes beyond the physical activities of making artistic products and can include influences, ideas, materials as well as tools and skills.</p>
-
+             </span>
             </div>
-            
           </div>
-      
-      </div>
-
-      
       <!---Development icon-->
       <div class="col-md-4">
-        <div id="development-showing">
-          <img src="./assets/services_icons/dev_icon.png" alt="development">
-          <h5 class="title">DEVELOPMENT</h5>
-          <div class="paragraph">
+        <div class="show2">
+          <span class="clickable2"><img src="./assets/services_icons/dev_icon.png" alt="development"></span>
+         </div>
+         <div class="hide2">
+           <span class="clickable2"><h6>DEVELOPMENT</h6>
             <p>Web development" usually refers to the main non-design aspects of building Web sites: writing markup and coding. Web development may use content management systems (CMS) to make content changes easier and available with basic technical skills.</p>
-
+           </span>
           </div>
-         
         </div>
-        
-        
-
-      </div>
+      <!---Product-->
       <div class="col-md-4">
-        <div id="product-showing">
-          <img src="./assets/services_icons/product_icon.png" alt="development">
-          <h5 class="title">Product</h5>
-          <div class="paragraph">
-            <p>Web development" usually refers to the main non-design aspects of building Web sites: writing markup and coding. Web development may use content management systems (CMS) to make content changes easier and available with basic technical skills.</p>
+        <div class="show3">
+          <span class="clickable3"><img src="./assets/services_icons/product_icon.png" alt="product"></span>
+        </div>
+        <div class="hide3">
+          <span class="clickable3"><h6>PRODUCT MANAGEMENT</h6></span>
+          <p>Web development" usually refers to the main non-design aspects of building Web sites: writing markup and coding. Web development may use content management systems (CMS) to make content changes easier and available with basic technical skills.</p>
+        </span>
           </div>
         </div>
       </div>
-      </div>
-
-
-
     <!---Section 5-->
     <div class="portfolio">
         <h2>PORTFOLIO</h2>
@@ -155,9 +144,9 @@
           </footer>
             </div>  
 
-    <!-- Custom JS-->
-    <script type="text/js" src="js/script.js"></script>
+    <!-- Custom JS--> 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script type="text/js" src="js/script.js"></script>
 </body>
 
 </html>
