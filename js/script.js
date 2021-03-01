@@ -38,6 +38,5 @@ $(document).ready(function() {
           else {
               alert("Please provide your correct name and email!");
           }
-          });
-
+        });
       });
