@@ -33,7 +33,7 @@ $(document).ready(function(){
   });
 
   //Overlay images
-//portfolio
+//portfolio section
   $('.work').hover(function(){
       $('.working',this).slideToggle('slow');
    }, function(){
@@ -41,14 +41,13 @@ $(document).ready(function(){
    });
 
 
-  //Form Validation
-
-
+  //Form Validation section
     $("form#form").on('submit',function(event){
     event.preventDefault();
     let name = $("input#name").val();
     let email = $("input#email").val();
     let message = $("textarea#message").val();
+    key = "82e3bc835b59fa96b885f27ed-us1"
     
     if ($("input#name").val() && $("input#email").val()){
               alert ("Hey " + name + ", Thanks for reaching out");
