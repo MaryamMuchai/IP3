@@ -1,52 +1,39 @@
-$(function () {
-  let desp = $('#desp');
-  let devp = $('#devp');
-  let prop = $('#prop');
-  let destext = $('#destxt');
-  let devtext = $('#devtext');
-  let protext = $('#protext');
 
-  $(desp).hide();
-  $(devp).hide();
-  $(prop).hide();
-
-  //Show paragraph content
-  $('.des').on('click', function () {
-      $('.des').slideUp('slow');
-      $(desp).show(500);
-      $(destext).animate({fontWeight:'bolder',fontSize:'30px'})
-
+$(document).ready(function(){
+    $("#development-image").click(function(){
+      $("#development-image").slideDown('1500').hide('1000');
+      $("#development").show('1500');
+    });
+    $("#development").click(function(){
+      $("#development").slideUp('1500');
+      $("#development-image").slideDown('1500');
+    });
   });
-  $('.dev').on('click', function () {
-      $('.dev').slideUp('slow');
-      $(devp).show(500);
-      $(devtext).animate({fontWeight:'bolder',fontSize:'30px'})
+  
+  $(document).ready(function(){
+    $("#design-image").click(function(){
+      $("#design-image").slideDown('1500').hide('1000');
+      $("#design").show('1500');
+    });
+    $("#design").click(function(){
+      $("#design").slideUp('1500');
+      $("#design-image").slideDown('1500');
+    });
   });
-  $('.pro').on('click', function () {
-      $('.pro').slideUp('slow');
-      $(prop).show(500);
-      $(protext).animate({fontWeight:'bolder',fontSize:'30px'})
+  
+  $(document).ready(function(){
+    $("#product-image").click(function(){
+      $("#product-image").slideDown('1500').hide('1000');
+      $("#product").show('1500');
+    });
+    $("#product").click(function(){
+      $("#product").slideUp('1500');
+      $("#product-image").slideDown('1500');
+    });
   });
-
-  //Hide paragraph content
-  $(desp, destext).on('click', function () {
-      $('.des').slideDown();
-      $(desp).hide(500);
-      $(destext).animate({fontWeight:'normal',fontSize:'16px'})
-  });
-  $(devp, devtext).on('click', function () {
-      $('.dev').slideDown();
-      $(devp).hide(500);
-      $(devtext).animate({fontWeight:'normal',fontSize:'16px'})
-  });
-  $(prop, protext).on('click', function () {
-      $('.pro').slideDown();
-      $(prop).hide(500);
-      $(protext).animate({fontWeight:'normal',fontSize:'16px'})
-  })
 
   //Overlay images
-
+//portfolio
   $('.work').hover(function(){
       $('.working',this).slideToggle('slow');
    }, function(){
@@ -55,13 +42,15 @@ $(function () {
 
 
   //Form Validation
-      $("form#form").on('submit',function(event){
-          event.preventDefault();
-          let name = $("input#name").val();
-          let email = $("input#email").val();
-          let message = $("textarea#message").val();
 
-          if ($("input#name").val() && $("input#email").val()){
+
+    $("form#form").on('submit',function(event){
+    event.preventDefault();
+    let name = $("input#name").val();
+    let email = $("input#email").val();
+    let message = $("textarea#message").val();
+    
+    if ($("input#name").val() && $("input#email").val()){
               alert ("Hey " + name + ", Thanks for reaching out");
           }
           else {
@@ -69,7 +58,3 @@ $(function () {
           }
 
       });
-
-
-
-});
