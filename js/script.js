@@ -26,11 +26,11 @@ $(document).ready(function() {
 
   //Form Validation section
     $("form#form").on('submit',function(event){
-    //event.preventDefault();
+    event.preventDefault();
     let name = $("input#name").val();
     let email = $("input#email").val();
     let message = $("textarea#message").val();
-    key = "b18193d9c2-us1"
+    
     
     if ($("input#name").val() && $("input#email").val()){
               alert ("Hey " + name + ", Thanks for reaching out");
